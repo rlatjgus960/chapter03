@@ -59,6 +59,10 @@ public class Ex01 {
 		if ("y".equals(yn)) { // 문자열을 앞에 써줘서 null포인트 상황이 발생하지 않는다.
 			System.out.println("게임다시시작");
 		}
+		
+		//다른 기본 자료형
+		Byte b = new Byte((byte)3); //3을 int로 인식하기 때문에 형변환시켜서 넣어야됨
+		Short s = new Short((short)1);
 	}
 
 }
